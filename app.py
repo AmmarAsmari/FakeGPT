@@ -7,9 +7,9 @@ import streamlit as st
 from langchain_openai import ChatOpenAI
 from langchain_core.messages import HumanMessage, AIMessage, SystemMessage
 
-st.markdown("# ChatGPT-like clone")
+st.markdown("# AmmarGPT")
 
-st.write("Ammar")
+st.write("Hello There!!")
 
 # Initialize LangChain ChatOpenAI instead of OpenAI client
 llm = ChatOpenAI(
